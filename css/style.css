@@ -1,0 +1,42 @@
+/* Add your own CSS rules here */
+#description {
+  margin: 0 0 1em 0;
+}
+
+tei-teiHeader {
+  display: none;
+}
+
+tei-head {
+  color: red;
+  text-align: center;
+  border: 1px solid blue;
+}
+
+tei-dateline {
+  color: blue;
+  text-align: center;
+}
+
+
+tei-placeName {
+  color: red;
+}
+
+
+tei-postscript:before {
+  content: "P.S.:";
+  color: green
+}
+
+tei-postscript {
+  color: green;
+}
+
+tei-closer {
+  color: orange
+}
+
+tei-persName {
+  color: violet
+}
